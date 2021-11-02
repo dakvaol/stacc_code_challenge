@@ -14,6 +14,11 @@
         "description": "A secret key for verifying the integrity of signed cookies.",
         "value": "mongodb+srv://david:8DHQLpwyctitkS6@cluster0.1wget.mongodb.net/pep?retryWrites=true&w=majority"
       }
-    }
+    },
+    "buildpacks": [
+        {
+          "url": "heroku/nodejs"
+        }
+    ]
   }
   
