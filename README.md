@@ -9,7 +9,7 @@ APIen er tilgjengelig på lenken lenger nede. Det er mulig å kjøre lokalt med 
 ## Kommentarer
 Error handling vil aldri trigges pga. jeg bruker async funksjoner. Hadde jeg hatt litt mer tid ville jeg laget en egen error handler som fikset dette problemet. 
 
-Det er også kodet en funksjon for å hente ut alle PEP, men den crasher appen på Heroku. Trolig pga. stor mengde data. Spørringen ligger ikke i dokumentasjonen for å unngå nedetid, men om dere vil kjøre den lokalt så kan den testes med * curl --location --request GET 'http://localhost:80/people/' --data-raw '* . 
+Det er også kodet en funksjon for å hente ut alle PEP, men den crasher appen på Heroku. Trolig pga. stor mengde data. Spørringen ligger ikke i dokumentasjonen for å unngå nedetid, men om dere vil kjøre den lokalt så kan den testes med ** curl --location --request GET 'http://localhost:80/people/' --data-raw ' ** . 
 
 
 # Lenker
