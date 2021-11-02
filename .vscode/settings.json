@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4a549a14-8455-4fb2-827b-54df270eb28e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/david-stacc-coding-challenge",
+    "appService.deploySubpath": "."
+}

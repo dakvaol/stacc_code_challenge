@@ -1,0 +1,15 @@
+### Testing getting all PEP
+
+GET http://localhost:3000/people
+
+### Testing getting specific PEP by name
+
+GET http://localhost:3000/people/name/Knut Arild Hareide
+
+### Testing getting all organizational entities
+
+GET http://localhost:3000/entities/
+
+### Testing getting organization by organizationnumber 
+
+GET http://localhost:3000/entities/orgnr/981078365

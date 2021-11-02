@@ -1,0 +1,19 @@
+{
+    "name": "Stacc Coding Challenge API",
+    "description": "Simple API for the Stacc Coding Challenge.",
+    "keywords": [
+      "API"
+    ],
+    "repository": "https://github.com/dakvaol/stacc_coding_challenge",
+    "success_url": "/",
+    "scripts": {
+      "postdeploy": "bundle exec rake bootstrap"
+    },
+    "env": {
+      "DB_URL": {
+        "description": "A secret key for verifying the integrity of signed cookies.",
+        "value": "mongodb+srv://david:8DHQLpwyctitkS6@cluster0.1wget.mongodb.net/pep?retryWrites=true&w=majority"
+      }
+    }
+  }
+  
