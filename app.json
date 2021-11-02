@@ -7,7 +7,7 @@
     "repository": "https://github.com/dakvaol/stacc_coding_challenge",
     "success_url": "/",
     "scripts": {
-      "postdeploy": "bundle exec rake bootstrap"
+      "postdeploy": "node start index.js"
     },
     "env": {
       "DB_URL": {
@@ -15,6 +15,7 @@
         "value": "mongodb+srv://david:8DHQLpwyctitkS6@cluster0.1wget.mongodb.net/pep?retryWrites=true&w=majority"
       }
     },
+    "image": "heroku/ruby",
     "buildpacks": [
         {
           "url": "heroku/nodejs"
