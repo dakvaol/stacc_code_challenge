@@ -11,5 +11,5 @@ Error handling vil aldri trigges pga. jeg bruker async funksjoner. Hadde jeg hat
 Det er også kodet en funksjon for å hente ut alle PEP, men den crasher appen på Heroku. Trolig pga. jeg brukte pep.csv istedenfor pep_small.csv. 
 
 # Lenker
-Link til api: https://stacccodechallengedavid.herokuapp.com 
-Link til dokumentasjon: https://documenter.getpostman.com/view/18151798/UVByLApN 
+* Link til api: https://stacccodechallengedavid.herokuapp.com 
+* Link til dokumentasjon: https://documenter.getpostman.com/view/18151798/UVByLApN 
