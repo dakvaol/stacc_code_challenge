@@ -1,4 +1,4 @@
-import dotenv from 'dotenv';
+//import dotenv from 'dotenv';
 import express from 'express';
 import peopleRouter from './routes/people.js';
 import entityRouter from './routes/entities.js';
@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 /**
  * Using enviroment variables to connect to MongoDB
  */
-dotenv.config()
+//dotenv.config()
 mongoose.connect(process.env.DB_URL)
 
 /**
