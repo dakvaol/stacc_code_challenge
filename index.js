@@ -16,7 +16,7 @@ mongoose.connect(process.env.DB_URL)
  * db: Connecting to MongoDB server from mongoose
  */
 const app = express();
-const PORT = 80; 
+const PORT = process.env.PORT || 80; 
 const db = mongoose.connection
 
 /**
